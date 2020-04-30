@@ -1,0 +1,300 @@
+@media only screen and (max-width: 600px){
+    .container{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    #search-text{
+        visibility: hidden;
+    }
+    #search-icon{
+        visibility: visible;
+    }
+}
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-bar{
+    padding: 3vhpx;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background-color: gray;
+    color: white;
+    direction: rtl;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    background-image: url("Images/sea-serpent-digital-art-4k-t0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header a{
+    padding: 20px;
+    font-size: 3vh;
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease;
+}
+
+header a:hover{
+    font-size: 5vh;
+    color: #ffc107;
+}
+
+#search-text{
+    margin-right: auto;
+    margin-left: 2vh;
+    border-radius: 20px 5px 20px 5px;
+    text-align: center;
+    transition: background-color 1s ease;
+}
+#search-text:focus{
+    background-color: brown;
+}
+
+
+#search-icon{
+    visibility: hidden;
+}
+#search-icon img{
+    max-width: 8vh;
+}
+.search-box{
+    margin-bottom: 20px;
+    padding: 5vh;
+    width: 50vh;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 3.5vh;
+    opacity: 90%;
+    transition: 1s ease;
+}
+.search-box:focus{
+    font-size: 5vh;
+    width: 100vh;
+    opacity: 100%;
+    border: 4px solid red;
+}
+
+
+.banner{
+    max-width: 100%;
+    margin: 15px;
+    padding: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 5px solid rgb(66, 55, 55);
+    border-radius: 20px;
+    background-image: url("Images/dark-blue-glow-dust-particle-abstract-background_35672-1414.jpg")
+    , url("Images/sea-serpent-digital-art-4k-t0.jpg");
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 1s ease;
+}
+.banner:hover{
+    transform: scale(1.01);
+}
+
+.banner a{
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30vh;
+    padding: 3vh;
+    font-size: 4vh;
+    opacity: 85%;
+    transition: 1s ease;
+}
+
+.banner a:hover{
+    background-color: rgb(30, 44, 119);
+}
+
+.content div,.container h4{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+}
+
+.full-page{
+    background-image: url("Images/166802.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    direction: rtl;
+}
+
+.space{
+    visibility: hidden;    
+}
+.middle-text{
+    text-align: center;
+}
+.content{
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: fit-content;
+    justify-content: space-around;
+}
+
+.content img{
+    margin: 10px;
+    max-width: 25vh;
+}
+.content p{
+    max-width: 45vh;
+}
+
+.border-solid{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+img{
+    transition: transform 1s ease;
+}
+img:hover{
+    transform: scale(1.1) rotate(-10deg);
+}
+.right-panel{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    max-width: 70vh;
+    min-width: 30vh;
+}
+#windows{
+    padding: 0px;
+    border-bottom: none;
+    border-radius: 20px 20px 0px 0px ;
+    margin-bottom: 0px;
+    background:linear-gradient(to right, blue 50%, #1E90FF 50%);
+    background-size: cover;
+}
+#windows-content{
+    padding: 0px;
+    margin-top: 0px;
+    border-top: none;
+    border-radius: 0px 0px 20px 20px ;
+    background: #1E90FF;
+}
+
+.right-panel-items a{
+    font-size: 2vh;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    transition: font-size 1s ease;
+}
+.right-panel-items a:hover{
+    font-size: 3vh;
+}
+.right-panel-items a:nth-of-type(2)
+{
+    padding-right: calc(50%  - 8vh);
+}
+.right-panel div{
+padding: 15px;
+}
+.small-image{
+    max-width: 15vh;
+}
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-center{
+    justify-content: space-around;
+    align-items: center;
+}
+.display-block{
+    display: block;
+}
+.flex-end{
+    justify-content: end;
+    align-items: flex-end;
+}
+hr{
+    width: 50%;
+    opacity: 70%;
+}
+
+.btn{
+border-radius: 5px;
+margin: 5px;
+padding: 5px;
+text-decoration: none;
+text-align: center;
+transition: transform 0.5s ease;
+}
+
+.btn:hover{
+    transform: scale(1.06);
+}
+
+.btn-dodgerblue{
+    background-color: #1E90FF;
+    color: white;
+}
+.btn-success{
+    background-color: #28a745;
+    color: white;
+}
+.btn-secondary{
+    background-color: #6c757d;
+    color: white;
+}
+.btn-warning{
+    background-color: #ffc107;
+    color: black;
+}
+.btn-danger{
+    background-color: #dc3545;
+    color: white;
+}
+.btn-dark{
+    background-color: #343a40;
+    color: white;
+}
+.img-border{
+    padding: 0px;
+    border: solid ;
+    border-color: khaki;
+    border-radius: 10px;
+    border-width: 4px;
+}    
+
+.small-text{
+    font-size: 2vh;
+    max-width: 25vh;
+}
+
+footer{
+    background-color: tomato;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 20px 20px 0px 0px;
+}
